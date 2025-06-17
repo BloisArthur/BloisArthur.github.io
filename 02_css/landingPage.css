@@ -1,0 +1,12 @@
+@import url(/02_css/01colors.css);
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.name{
+    font-size: 2em;
+    color: black;
+}
