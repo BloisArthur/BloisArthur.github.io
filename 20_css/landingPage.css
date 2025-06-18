@@ -40,7 +40,9 @@ section {
     align-items: center;
     justify-content: center;
     gap: 2em;
-    font-size: 1.1em
+    font-size: 1.1em;
+    text-align: justify;
+    text-justify: distribute;
 }
 
 .bio {
@@ -55,9 +57,4 @@ section {
     width: auto;
     border-radius: 8px;
     object-fit: cover;
-}
-
-.education {
-    text-align: justify;
-    text-justify: distribute;
 }
