@@ -1,12 +1,29 @@
 @import url(/20_css/10presets.css);
 
 header {
-    background-color: var(--primary-color);
+    background-color: red;
     padding: 20px;
     text-align: center;
+    margin: 0%;
 }
 
 .name {
     font-size: 2em;
+    background-color: var(--primary-color);
     color: var(--text-color);
+}
+
+.bio {
+    .bio-text {
+        font-family: Verdana, Tahoma, sans-serif;
+        display: flex;
+    }
+
+    img {
+        height: 75%;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
 }

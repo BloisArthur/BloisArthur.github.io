@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #DDA15E;
-    --primary-color-variant: #BC6C25;
+    --primary-color: #BC6C25;
+    --primary-color-variant: #DDA15E;
     --secondary-color: #606C38;
     --secondary-color-variant: #283618;
 
@@ -28,6 +28,6 @@ button {
 
 button:hover,
 button:focus {
-    background-color: var(--primary-color-variant);
+    background-color: var(--primary-color);
     outline: none;
 }
