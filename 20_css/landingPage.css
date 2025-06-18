@@ -1,29 +1,36 @@
 @import url(/20_css/10presets.css);
 
-header {
-    background-color: red;
+header, h1,  button {
+    background-color: var(--primary-color-variant);
     padding: 20px;
     text-align: center;
     margin: 0%;
+    color: var(--on-primary-color);
 }
 
 .name {
-    font-size: 2em;
     background-color: var(--primary-color);
     color: var(--text-color);
 }
 
 .bio {
-    .bio-text {
-        font-family: Verdana, Tahoma, sans-serif;
-        display: flex;
-    }
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em; 
+}
 
-    img {
-        height: 75%;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-    }
+.bio-text {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2em;
+    max-width: 250em;
+}
 
+.bio img {
+    height: 150px;
+    width: auto;
+    border-radius: 8px;
+    object-fit: cover;
 }
