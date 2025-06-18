@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #DDA15E;
+    --primary-color-variant: #BC6C25;
+    --secondary-color: #606C38;
+    --secondary-color-variant: #283618;
+
+    --background-color: #fefae0;
+    --surface-color: #fefae0;
+    --error-color: #b00020;
+    
+    --on-primary-color: #ffffff;
+    --on-secondary-color: #000000;
+    --on-background-color: #000000;
+    --on-surface-color: #000000;
+    --on-error: #ffffff;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1.2em;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--primary-color-variant);
+    outline: none;
+}

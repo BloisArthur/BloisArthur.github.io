@@ -1,4 +1,4 @@
-@import url(/02_css/01colors.css);
+@import url(/20_css/10presets.css);
 
 header {
     background-color: var(--primary-color);
@@ -6,7 +6,7 @@ header {
     text-align: center;
 }
 
-.name{
+.name {
     font-size: 2em;
-    color: black;
+    color: var(--text-color);
 }
