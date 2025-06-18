@@ -31,7 +31,3 @@ button:focus {
     background-color: var(--primary-color);
     outline: none;
 }
-
-p {
-    font-size: 1.5em;
-}
