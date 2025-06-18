@@ -6,28 +6,11 @@ body {
     padding: 0;
 }
 
-body {
-    margin-left: 7.5em;
-    margin-right: 7.5em;
-}
 
-body, h2 {
+
+body,
+h2 {
     text-align: center;
-}
-
-header,
-h1,
-button {
-    background-color: var(--primary-color-variant);
-    padding: 0.75em;
-    text-align: center;
-    margin: 0%;
-    color: var(--on-primary-color);
-}
-
-header {
-    margin-left: -7.5em;
-    margin-right: -7.5em;
 }
 
 .name {
@@ -47,7 +30,7 @@ section {
 
 .bio {
     font-family: Verdana, Tahoma, sans-serif;
-        display: flex;
+    display: flex;
     flex-direction: row;
 
 }
