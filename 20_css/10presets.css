@@ -15,7 +15,6 @@
   --on-error: #ffffff;
 }
 
-/* Reset and basic layout */
 html, body {
   margin: 0;
   padding: 0;
@@ -24,7 +23,30 @@ html, body {
   font-family: sans-serif;
 }
 
-/* Full-width header */
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
 header {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
@@ -34,21 +56,18 @@ header {
   box-sizing: border-box;
 }
 
-/* Make header links visible */
 header a {
   color: var(--on-primary-color);
   text-decoration: none;
   margin: 0 0.5em;
 }
 
-/* Constrained main content */
 main.content {
   max-width: 960px;
   margin: 2em auto;
   padding: 0 1em;
 }
 
-/* Button styling */
 button {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
@@ -66,7 +85,6 @@ button:focus {
   outline: none;
 }
 
-/* Text alignment */
 h1, h2 {
   text-align: center;
 }
@@ -74,4 +92,8 @@ h1, h2 {
 p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.monospace-text {
+  font-family: monospace;
 }
