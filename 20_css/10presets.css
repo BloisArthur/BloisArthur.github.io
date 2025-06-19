@@ -94,6 +94,6 @@ p {
   text-justify: inter-word;
 }
 
-.monospace-text {
+section .monospace-text {
   font-family: monospace;
 }
