@@ -6,8 +6,6 @@ body {
     padding: 0;
 }
 
-
-
 body,
 h2 {
     text-align: center;
@@ -24,8 +22,6 @@ section {
     justify-content: center;
     gap: 2em;
     font-size: 1.1em;
-    text-align: justify;
-    text-justify: distribute;
 }
 
 .bio {

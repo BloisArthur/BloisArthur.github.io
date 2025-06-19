@@ -1,48 +1,77 @@
-:root{
-    --primary-color: #DDA15E;
-    --primary-color-variant: #BC6C25;
-    --secondary-color: #606C38;
-    --secondary-color-variant: #283618;
+:root {
+  --primary-color: #DDA15E;
+  --primary-color-variant: #BC6C25;
+  --secondary-color: #606C38;
+  --secondary-color-variant: #283618;
 
-    --background-color: #fefae0;
-    --surface-color: #fefae0;
-    --error-color: #b00020;
-    
-    --on-primary-color: #ffffff;
-    --on-secondary-color: #000000;
-    --on-background-color: #000000;
-    --on-surface-color: #000000;
-    --on-error: #ffffff;
+  --background-color: #fefae0;
+  --surface-color: #fefae0;
+  --error-color: #b00020;
+
+  --on-primary-color: #ffffff;
+  --on-secondary-color: #000000;
+  --on-background-color: #000000;
+  --on-surface-color: #000000;
+  --on-error: #ffffff;
 }
 
-header,
-h1,
+/* Reset and basic layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--on-background-color);
+  font-family: sans-serif;
+}
+
+/* Full-width header */
+header {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Make header links visible */
+header a {
+  color: var(--on-primary-color);
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+/* Constrained main content */
+main.content {
+  max-width: 960px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+/* Button styling */
 button {
-    background-color: var(--primary-color);
-    padding: 0.75em;
-    text-align: center;
-    margin: 0%;
-    color: var(--on-primary-color);
-}
-
-body {
-    margin-left: 7.5em;
-    margin-right: 7.5em;
-}
-
-button {
-    background-color: var(--primary-color);
-    color: var(--on-primary-color);
-    border: none;
-    border-radius: 4px;
-    padding: 0.5em 1.2em;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.2s;
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
 button:hover,
 button:focus {
-    background-color: var(--primary-color-variant);
-    outline: none;
+  background-color: var(--primary-color-variant);
+  outline: none;
+}
+
+/* Text alignment */
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
 }
