@@ -32,8 +32,6 @@ section {
 }
 
 .bio img {
-    height: 150px;
-    width: auto;
     border-radius: 8px;
     object-fit: cover;
 }
