@@ -1,1 +1,86 @@
 @import url(/20_css/10presets.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 0 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.left {
+    flex: 1;
+    min-width: 250px;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section li {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Monospace text for code or keywords */
+.monospace-text {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+/* Footer placeholder */
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-links {
+        justify-content: center;
+    }
+}
