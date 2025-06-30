@@ -60,7 +60,8 @@ h6 {
 
 .burger {
   list-style: none;
-  display: flex;
+  display: none;
+  flex-direction: column;
   gap: 20px; 
 }
 
