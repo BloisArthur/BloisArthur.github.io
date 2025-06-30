@@ -63,12 +63,28 @@ h6 {
   display: none;
   flex-direction: column;
   gap: 20px; 
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 
 .burger .line {
-  width: 25px;
-  height: 3px;
-  background: var(--on-primary-color);
+  width: 10px;
+  height: 10px;
+  background-color: var(--on-primary-color);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+}
+
+.burger.active .line:nth-child(1) {
+  transform: translateX(30px)
+}
+
+.burger.active .line:nth-child(2) {
+  transform: translateX(15px);
 }
 
 .navbar a {
@@ -127,16 +143,15 @@ a {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: var(--primary-color-variant);
+    background: var(--primary-color);
     position: absolute;
-    top: 70px;
-    right: 20px;
+    top: 200px;
     padding: 10px;
     border-radius: var(--border-radius);
   }
 
   .burger {
-    display: flex;
+    display: block;
   }
 
   .nav-links.active {
