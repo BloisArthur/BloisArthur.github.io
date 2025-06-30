@@ -27,6 +27,7 @@ html, body {
 
 h1 {
   font-size: 3em;
+  color: var(--on-primary-color);
 }
 
 h2 {
@@ -91,6 +92,12 @@ h6 {
   color: var(--on-primary-color);
   text-decoration: none;
   margin: 0 0.5em;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
 main.content {
