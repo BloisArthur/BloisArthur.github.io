@@ -1,4 +1,4 @@
-@import url(/20_css/10presets.css);
+@import url(./10presets.css);
 
 html,
 body {
@@ -13,7 +13,7 @@ h2 {
 
 .name {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--on-primary-color);
 }
 
 section {
@@ -28,7 +28,6 @@ section {
     font-family: Verdana, Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
-
 }
 
 .bio img {
