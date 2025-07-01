@@ -17,6 +17,25 @@
   --border-radius: 4px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #8d5524;
+    --primary-color-variant: #c68642;
+    --secondary-color: #a8dadc;
+    --secondary-color-variant: #457b9d;
+
+    --background-color: #1e1e1e;
+    --surface-color: #2a2a2a;
+    --error-color: #cf6679;
+
+    --on-primary-color: #ffffff;
+    --on-secondary-color: #ffffff;
+    --on-background-color: #f5f5f5;
+    --on-surface-color: #f5f5f5;
+    --on-error: #000000;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
