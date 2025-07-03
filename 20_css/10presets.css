@@ -15,6 +15,7 @@
   --on-error: #ffffff;
 
   --border-radius: 4px;
+  --max-width: 960px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -114,7 +115,7 @@ h6 {
 }
 
 main, main.content {
-  max-width: 960px;
+  max-width: var(--max-width);
   margin: 2em auto;
   padding: 0 1em;
 }
@@ -143,6 +144,7 @@ h1, h2 {
 p {
   text-align: justify;
   text-justify: inter-word;
+  max-width: var(--max-width);
 }
 
 section .monospace-text {
