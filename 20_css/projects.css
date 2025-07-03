@@ -1,1 +1,37 @@
-@import url(/20_css/10presets.css);
+@import url('/20_css/10presets.css');
+
+.school-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em 0;
+}
+
+.school-projects > div {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  flex: 1 1 300px;
+  max-width: 400px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+}
+
+.school-projects > div:hover {
+  transform: translateY(-5px);
+}
+
+.school-projects h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.school-projects p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: justify;
+}
